@@ -20,22 +20,28 @@
     justify-content: center;
 }
 
+.rate-container h2 {
+    margin-bottom: 20px;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 42px;
+    color: black;
+}
+
 .star-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
 }
 
-.rate-container h2 {
-    font-family: 'Londrina Solid', sans-serif;
-    font-size: 42px;
-    color: black;
+.star {
+    width: 40px;
+    height: auto;
 }
 
 .star-btn {
     border-style: none;
     background: none;
-    margin: 0px 5px;
+    margin: 0px 2px;
 }
 
 .btn-container {
