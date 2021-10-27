@@ -32,7 +32,9 @@
     color: black;
 }
 
-.star {
+.star-btn {
+    border-style: none;
+    background: none;
     margin: 0px 5px;
 }
 
@@ -73,7 +75,7 @@
 
 .skip-btn {
     color: var(--light-blue);
-    background-color: rgba(0, 0, 0, 0);
+    background: none;
     border-style: none;
 }
 
