@@ -13,4 +13,6 @@ function toggleStars(evt) {
     for (; index < starsBtn.length; index++) {
         starsBtn[index].querySelector(".star").src = "./assets/estrela_vazia.svg";
     }
+
+    document.getElementById("confirm-btn").disabled = false;
 }

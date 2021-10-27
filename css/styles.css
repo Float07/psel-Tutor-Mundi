@@ -2,6 +2,9 @@
     --light-blue:rgb(44, 198, 208);
     --light-blue-shadow:rgba(44, 198, 208, 0.5);
     --light-blue-pressed:rgb(32, 153, 161);
+
+    --light-gray:rgba(200, 200, 200, 1);
+    --light-gray-shadow:rgba(200, 200, 200, 0.5);
 }
 
 .main-container {
@@ -47,7 +50,7 @@
 .btn-container {
     width: 290px;
     height: 20%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -64,7 +67,7 @@
     text-transform: uppercase;
 }
 
-.confirm-btn {
+#confirm-btn {
     border-radius: 50px;
     margin: 0px 20px;
     width: 143px;
@@ -75,16 +78,36 @@
     color: white;
 }
 
-.confirm-btn:active {
+#confirm-btn:active {
     background-color: var(--light-blue-pressed);
 }
 
-.skip-btn {
+#confirm-btn:disabled {
+    background-color: var(--light-gray);
+    box-shadow: 0px 6px 10px var(--light-gray-shadow);
+}
+
+#skip-btn {
     color: var(--light-blue);
     background: none;
     border-style: none;
 }
 
-.skip-btn:active {
+#skip-btn:active {
     color: var(--light-blue-pressed);
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .btn-container {
+        height: auto;
+        margin-top: 2%;
+        width: 100%;
+    }
+
+    #confirm-btn {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
 }
