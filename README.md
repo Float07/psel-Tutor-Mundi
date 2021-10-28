@@ -1,6 +1,6 @@
 # TutorMundi
 
-Página web feita com HTML, CSS e Javascript para o processo seletivo da Tutor Mundi.
+Página web feita com HTML, CSS e Javascript para o processo seletivo da TutorMundi.
 
 ## Como rodar
 
