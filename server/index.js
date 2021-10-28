@@ -15,7 +15,7 @@ app.use(function(req, res, next) {
 
 //Ponto de acesso - Recebe a avaliação e a imprime
 app.post('/rate_stars', (req, res) => {
-  console.log(`Avaliação de  ${req.body.value} estrelas recebida`);
+  console.log(`Avaliação de ${req.body.value} estrela${req.body.value>1 ? 's' : ''} recebida`);
   res.send("Avaliação recebida!");
 })
 
